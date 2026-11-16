@@ -626,3 +626,28 @@ html[data-theme="dark"] .btn-outline-brown.active {
   text-align: center;
   padding: 30px 10px;
 }
+
+/* Final additions Yelaman */
+.card-item .add-cart {
+  margin-top: 8px;
+}
+
+.qty-btn {
+  padding: 0 8px;
+}
+
+.qty-number {
+  display: inline-block;
+  min-width: 30px;
+  text-align: center;
+}
+
+.menu-table tfoot td {
+  font-weight: 600;
+}
+
+.cart-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
