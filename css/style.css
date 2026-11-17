@@ -651,3 +651,78 @@ html[data-theme="dark"] .btn-outline-brown.active {
   flex-wrap: wrap;
   gap: 10px;
 }
+
+/*final addition said sana ullah sadat */
+.cta-section {
+  background-color: var(--card-bg);
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.cta-section .btn {
+  margin: 5px;
+}
+
+.faq-list {
+  max-width: 800px;
+}
+
+.faq-item {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  background: none;
+  border: none;
+  padding: 16px 20px;
+  font-family: var(--main-font);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-question:hover,
+.faq-question:focus {
+  background-color: var(--card-hover);
+}
+
+.faq-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 20px 10px;
+}
+
+@media (max-width: 768px) {
+  .coffee-control {
+    max-width: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .site-header {
+    justify-content: center;
+  }
+
+  .coffee-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-question {
+    padding: 14px;
+  }
+}

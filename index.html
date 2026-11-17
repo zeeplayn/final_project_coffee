@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Bean There Coffee</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
 </head>
+
 <body>
 
   <header class="site-header">
     <a href="index.html" class="logo">&#9749; Bean There</a>
-    <nav>
+    <nav aria-label="Main navigation">
       <ul class="nav-list">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
+        <li><a href="coffee-guide.html">Coffee Guide</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <div class="header-tools" id="header-tools"></div>
   </header>
 
   <main>
@@ -60,20 +67,34 @@
       <h2 class="text-center mb-4">Popular drinks</h2>
       <div class="popular-grid">
         <div class="card-item">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43zeoElNo9A8jVD-iv0bL43PLpVgjtBWO6aNqBJ2Y9ss50oJkRuqHiCY&s=10" alt="Latte">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43zeoElNo9A8jVD-iv0bL43PLpVgjtBWO6aNqBJ2Y9ss50oJkRuqHiCY&s=10"
+            alt="Latte">
           <h3>Latte</h3>
           <p>Soft and creamy.</p>
         </div>
         <div class="card-item">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEb1KoTFJAcqaZmnR30arnKca21O8viuVKg8qdYq3LQ&s=10" alt="Cappuccino" loading="lazy">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEb1KoTFJAcqaZmnR30arnKca21O8viuVKg8qdYq3LQ&s=10"
+            alt="Cappuccino" loading="lazy">
           <h3>Cappuccino</h3>
           <p>Strong with milk foam.</p>
         </div>
         <div class="card-item">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbamkRoI7-nP_ZPFkZVw8aXYY3zrSGukesc3X9MZZzRpyNCkVHaA32nEk&s=10" alt="Espresso" loading="lazy">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbamkRoI7-nP_ZPFkZVw8aXYY3zrSGukesc3X9MZZzRpyNCkVHaA32nEk&s=10"
+            alt="Espresso" loading="lazy">
           <h3>Espresso</h3>
           <p>Small but powerful.</p>
         </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="container text-center">
+        <h2>Ready for your coffee?</h2>
+        <p>Choose drinks on the menu, learn about every coffee in our guide, or sign in to get a member discount.</p>
+        <a href="menu.html" class="btn btn-brown btn-lg">Order now</a>
+        <a href="coffee-guide.html" class="btn btn-outline-brown btn-lg">Coffee guide</a>
       </div>
     </section>
   </main>
@@ -87,8 +108,8 @@
         </div>
         <div class="col-md-4 mb-3">
           <h4>Contact</h4>
-          <p>Address: Mangilik El 55/1, Astana , Kazakhtsan<br>
-             Phone: +7 777 123 45 67</p>
+          <p>Address: Mangilik El 55/1, Astana, Kazakhstan<br>
+            Phone: +7 777 123 45 67</p>
         </div>
         <div class="col-md-4 mb-3">
           <h4>Follow us</h4>
@@ -99,9 +120,16 @@
           </p>
         </div>
       </div>
-      <p class="copyright text-center">2026 Bean There Coffee</p>
+      <p class="copyright text-center"> 2026 Bean There Coffee. All rights reserved.</p>
+      <p class="footer-links text-center"><a href="register.html">Register</a> | <a href="manage.html">Admin</a></p>
     </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/auth.js"></script>
+
 </body>
+
 </html>
