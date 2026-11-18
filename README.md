@@ -76,3 +76,4 @@ Parts of the code and text of this project were prepared with the help of Claude
 
 ## Published website
 Link: https://lopaf.netlify.app
+Github Pages:https://zeeplayn.github.io/final_project_coffee/menu.html
