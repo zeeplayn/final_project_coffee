@@ -75,5 +75,5 @@ js/theme.js  js/auth.js  js/cart.js  js/coffee-api.js  js/faq.js  js/script.js
 Parts of the code and text of this project were prepared with the help of Claude, an AI assistant by Anthropic.
 
 ## Published website
-Link: https://lopaf.netlify.app
-Github Pages:https://zeeplayn.github.io/final_project_coffee/menu.html
+- Link: https://lopaf.netlify.app
+- Github Pages:https://zeeplayn.github.io/final_project_coffee/menu.html
