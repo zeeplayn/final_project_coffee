@@ -65,12 +65,15 @@
       tr.appendChild(makeCell(money(item.price)));
 
       var qtyCell = document.createElement('td');
-      qtyCell.appendChild(makeButton('−', 'minus', name, 'Decrease'));
+      var qtyControl = document.createElement('div');
+      qtyControl.className = 'qty-control';
+      qtyControl.appendChild(makeButton('−', 'minus', name, 'Decrease'));
       var qtyText = document.createElement('span');
       qtyText.className = 'qty-number';
       qtyText.textContent = item.qty;
-      qtyCell.appendChild(qtyText);
-      qtyCell.appendChild(makeButton('+', 'plus', name, 'Increase'));
+      qtyControl.appendChild(qtyText);
+      qtyControl.appendChild(makeButton('+', 'plus', name, 'Increase'));
+      qtyCell.appendChild(qtyControl);
       tr.appendChild(qtyCell);
 
       tr.appendChild(makeCell(money(rowTotal)));
